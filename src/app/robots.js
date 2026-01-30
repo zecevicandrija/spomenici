@@ -4,6 +4,6 @@ export default function robots() {
             userAgent: '*',
             allow: '/',
         },
-        sitemap: 'https://novisadspomenici.com/sitemap.xml',
+        sitemap: 'https://spomenicinovogsada.com/sitemap.xml',
     }
 }

@@ -21,7 +21,7 @@ const cormorant = Cormorant_Garamond({
 export async function generateMetadata({ params }) {
   const { locale } = await params;
   return {
-    metadataBase: new URL('http://localhost:3000'), // Updated to localhost as requested
+    metadataBase: new URL('https://spomenicinovogsada.com'),
     title: {
       template: '%s | Novi Sad Spomenici',
       default: 'Novi Sad Spomenici',
@@ -30,7 +30,7 @@ export async function generateMetadata({ params }) {
     openGraph: {
       type: 'website',
       locale: locale,
-      url: `https://novisadspomenici.com/${locale}`,
+      url: locale === 'sr' ? 'https://spomenicinovogsada.com' : `https://spomenicinovogsada.com/${locale}`,
       siteName: 'Novi Sad Spomenici',
       images: [
         {
@@ -49,7 +49,7 @@ export async function generateMetadata({ params }) {
     alternates: {
       canonical: './',
       languages: {
-        'sr': '/sr',
+        'sr': '/',
         'en': '/en',
       },
     },
@@ -75,8 +75,8 @@ export default async function RootLayout({ children, params }) {
               "@context": "https://schema.org",
               "@type": "Organization",
               "name": "Novi Sad Spomenici",
-              "url": "https://novisadspomenici.com",
-              "logo": "https://novisadspomenici.com/Assets/logocentra.jpeg",
+              "url": "https://spomenicinovogsada.com",
+              "logo": "https://spomenicinovogsada.com/Assets/logocentra.jpeg",
               "sameAs": [
                 "https://www.instagram.com/omladinskicentarsrbije"
               ]
