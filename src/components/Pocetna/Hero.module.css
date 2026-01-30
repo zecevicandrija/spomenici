@@ -267,10 +267,9 @@
     }
 
     .heroMeta {
-        flex-direction: row;
-        /* Keep row but wrap if needed */
-        flex-wrap: wrap;
-        gap: var(--space-sm);
+        flex-direction: column;
+        /* Display text on separate lines */
+        gap: var(--space-xs);
         margin-bottom: var(--space-lg);
         opacity: 0.8;
     }

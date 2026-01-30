@@ -4,7 +4,7 @@ import { useEffect, useRef } from 'react';
 import { useTranslations } from 'next-intl';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import Link from 'next/link'; // Anchor link can stay next/link or native a
+import { Link } from '../../i18n/routing';
 import styles from './Hero.module.css';
 
 gsap.registerPlugin(ScrollTrigger);
@@ -142,7 +142,7 @@ export default function Hero() {
                 </p>
 
                 <div className={styles.heroCta}>
-                    <Link href="#monuments" className={styles.ctaButton}>
+                    <Link href="/#monuments" className={styles.ctaButton}>
                         <span className={styles.ctaText}>{t('explore')}</span>
                         <span className={styles.ctaIcon}>
                             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
@@ -158,11 +158,6 @@ export default function Hero() {
                     <div className={`${styles.scrollDot} scrollPulse`}></div>
                 </div>
                 <span className={styles.scrollText}>{t('scroll')}</span>
-            </div>
-
-            <div className={styles.heroDecorations}>
-                <div className={styles.decoCircle}></div>
-                <div className={styles.decoLine}></div>
             </div>
         </section>
     );

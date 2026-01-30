@@ -42,6 +42,7 @@
   width: 50px;
   object-fit: cover;
   border-radius: 50%;
+  aspect-ratio: 1 / 1;
 }
 
 .navCenter {
@@ -147,6 +148,7 @@
   border: none;
   cursor: pointer;
   padding: var(--space-sm);
+  z-index: 1001;
 }
 
 .menuToggle span {
@@ -155,6 +157,14 @@
   height: 1px;
   background: var(--neutral-100);
   transition: all 0.3s var(--ease-out-expo);
+}
+
+.menuToggleOpen span:first-child {
+  transform: rotate(45deg) translateY(7px);
+}
+
+.menuToggleOpen span:last-child {
+  transform: rotate(-45deg) translateY(-7px);
 }
 
 /* Print styles */
@@ -174,7 +184,35 @@
   }
 
   .navLinks {
-    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 300px;
+    max-width: 80vw;
+    flex-direction: column;
+    background: rgba(10, 22, 40, 0.98);
+    backdrop-filter: blur(var(--glass-blur));
+    padding: 100px var(--space-xl) var(--space-xl);
+    gap: var(--space-xl);
+    transform: translateX(100%);
+    transition: transform 0.4s var(--ease-out-expo);
+    box-shadow: -10px 0 30px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+  }
+
+  .navLinksOpen {
+    transform: translateX(0);
+  }
+
+  .navLink {
+    font-size: 1rem;
+    padding: var(--space-sm) 0;
+    width: 100%;
+  }
+
+  .langSwitcher {
+    margin-left: 0;
   }
 }
 
@@ -185,6 +223,10 @@
 
   .logoImage {
     height: 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
   }
 }
 
