@@ -32,7 +32,7 @@ export default function Navbar() {
             <div className={styles.navContainer}>
                 <Link href="/" className={styles.logo}>
                     <img
-                        src="/assets/logocentra.jpeg"
+                        src="/Assets/logocentra.jpeg"
                         alt="Omladinski Centar Srbije"
                         className={styles.logoImage}
                     />

@@ -18,12 +18,13 @@ const cormorant = Cormorant_Garamond({
   style: ['normal', 'italic'],
 });
 
-export async function generateMetadata({ params: { locale } }) {
+export async function generateMetadata({ params }) {
+  const { locale } = await params;
   return {
     metadataBase: new URL('http://localhost:3000'), // Updated to localhost as requested
     title: {
       template: '%s | Novi Sad Spomenici',
-      default: 'Novi Sad Spomenici | Čuvari Istorije',
+      default: 'Novi Sad Spomenici',
     },
     description: 'Dobrodošli na digitalni prikaz najvažnijih spomenika Novog Sada. Istražite istoriju Svetozara Miletića, Jovana Jovanovića Zmaja i drugih velikana.',
     openGraph: {
@@ -42,7 +43,7 @@ export async function generateMetadata({ params: { locale } }) {
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'Novi Sad Spomenici | Čuvari Istorije',
+      title: 'Novi Sad Spomenici',
       description: 'Istražite istoriju i spomenike Novog Sada.',
     },
     alternates: {
