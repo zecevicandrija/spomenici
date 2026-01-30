@@ -1,0 +1,152 @@
+{
+    "Navbar": {
+        "title": "Monuments",
+        "home": "Home",
+        "monuments": "Monuments",
+        "contact": "Contact"
+    },
+    "Hero": {
+        "location": "NOVI SAD, SERBIA",
+        "est": "EST. 2026",
+        "titleMain": "Monuments",
+        "titleAccent": "Novi Sad",
+        "subtitle": "Preserving history and culture through the monumental heritage of our city",
+        "explore": "Explore",
+        "scroll": "Scroll"
+    },
+    "Monuments": {
+        "label": "OUR HERITAGE",
+        "titleMain": "DISTINGUISHED",
+        "titleAccent": "FIGURES",
+        "subtitle": "Discover the stories of the people who shaped the history,\nculture and spirit of Novi Sad through the centuries.",
+        "explore": "EXPLORE",
+        "items": {
+            "miletic": {
+                "category": "Politician",
+                "desc": "A prominent Serbian politician, journalist, and fighter for the rights of Serbs in Austria-Hungary, whose monument dominates Freedom Square."
+            },
+            "zmaj": {
+                "category": "Poet",
+                "desc": "One of the greatest Serbian poets, a physician, and a great benefactor, known for his lyrical and patriotic poems."
+            },
+            "kej": {
+                "category": "Memorial",
+                "name": "Quay of the Raid Victims",
+                "desc": "One of the most powerful memorial sites in Novi Sad, dedicated to the innocent victims of the Novi Sad Raid."
+            },
+            "porodica": {
+                "category": "Memorial",
+                "name": "The Family Monument",
+                "desc": "A symbol of togetherness and love, a monument dedicated to the victims of the raid, but also to universal family values."
+            },
+            "trandafil": {
+                "category": "Benefactor",
+                "desc": "A great benefactor who left a vast fortune for the education of children and help for the poor."
+            },
+            "tomic": {
+                "category": "Politician",
+                "desc": "Politician, journalist, and writer, one of the key figures in the unification of Vojvodina with Serbia."
+            }
+        }
+    },
+    "Quote": {
+        "text": "Monuments are books of stone, from which we learn about our past and determine our future.",
+        "author": "Folk Wisdom"
+    },
+    "MileticPage": {
+        "title": "STATUE OF SVETOZAR MILETIĆ – A SYMBOL OF CIVIC NOVI SAD",
+        "storyTitle": "Story of the place",
+        "storyText1": "The statue of Svetozar Miletić stands prominently at Liberty Square, one of the most recognizable landmarks in the heart of Novi Sad.",
+        "storyText2": "Svetozar Miletić was a prominent Serbian politician, lawyer, and mayor of Novi Sad in the 19th century, known for his fight for the rights of Serbs in the Austro-Hungarian Empire and for strengthening civic society.",
+        "storyText3": "The monumental equestrian sculpture was created by Ivan Meštrović. Miletić’s figure on horseback symbolizes strength, dignity, and determination, while its central location highlights his importance to the city’s identity.",
+        "storyText4": "Today, this statue also serves as a meeting point and a recognizable part of Novi Sad’s urban life.",
+        "didYouKnowTitle": "Did you know?",
+        "fact1": "The statue’s author is Ivan Meštrović, one of the most important sculptors of the 20th century.",
+        "fact2": "The monument was erected in 1939.",
+        "fact3": "Liberty Square is the historical center of the city’s political and social life.",
+        "locationLabel": "Where:",
+        "locationValue": "Liberty Square, Novi Sad",
+        "quote": "A city is defined by the people who shaped it."
+    },
+    "ZmajPage": {
+        "title": "STATUE OF JOVAN JOVANOVIĆ ZMAJ – THE POET OF THE CITY",
+        "storyTitle": "Story of the place",
+        "storyText1": "The statue of Jovan Jovanović Zmaj is dedicated to one of the most beloved Serbian poets, whose words have shaped the childhood and culture of many generations.",
+        "storyText2": "Zmaj was a physician, writer, and poet, known for his warmth, humor, and humanistic spirit. His work continues to occupy a special place in Serbian literature.",
+        "storyText3": "The sculpture shows him in a calm, thoughtful pose, emphasizing his closeness to ordinary people and everyday life.",
+        "storyText4": "Today, this monument reminds visitors of the importance of words, culture, and art in Novi Sad’s identity.",
+        "didYouKnowTitle": "Did you know?",
+        "fact1": "Jovan Jovanović Zmaj was also a physician.",
+        "fact2": "His poems are among the most widely read in Serbian children’s literature.",
+        "fact3": "There is a Zmaj Street in Novi Sad named in his honor.",
+        "locationLabel": "Where:",
+        "locationValue": "Center of Novi Sad",
+        "quote": "Words have the power to last longer than time."
+    },
+    "TomicPage": {
+        "title": "STATUE OF JAŠA TOMIĆ – A VOICE OF POLITICAL STRUGGLE",
+        "storyTitle": "Story of the place",
+        "storyText1": "The statue of Jaša Tomić is dedicated to one of the most important Serbian political and public figures of the late 19th and early 20th century.",
+        "storyText2": "Jaša Tomić was a politician, journalist, and advocate for Serbian rights in Vojvodina, whose ideas had a strong influence on the social and political life of his time.",
+        "storyText3": "The sculpture presents him in a dignified and determined manner, symbolizing the power of public speech and political engagement.",
+        "storyText4": "Today, the monument stands as a reminder of civic responsibility and active participation in society.",
+        "didYouKnowTitle": "Did you know?",
+        "fact1": "Jaša Tomić was a long-time editor and public speaker.",
+        "fact2": "His work was closely connected to Vojvodina’s political history.",
+        "fact3": "The statue reminds us of the importance of freedom of thought and public debate.",
+        "locationLabel": "Where:",
+        "locationValue": "Novi Sad",
+        "quote": "A city progresses when its citizens have a voice."
+    },
+    "KejPage": {
+        "title": "QUAY OF THE RAID VICTIMS – A PLACE OF SILENT MEMORY",
+        "storyTitle": "Story of the place",
+        "storyText1": "The Quay of the Raid Victims is one of the most powerful memorial sites in Novi Sad, located along the Danube River, where the city’s history meets a space of quiet remembrance.",
+        "storyText2": "In January 1942, during World War II, the Novi Sad Raid took place here, when Hungarian occupation forces killed and threw more than 1,300 civilians into the Danube, most of them Serbs, Jews, and Roma.",
+        "storyText3": "The central element of the memorial is the sculpture “The Family”, created by sculptor Jovan Soldatović. The figures are not individualized, symbolizing all innocent victims, while the bronze footprints along the quay represent their final steps toward the river.",
+        "storyText4": "Today, the Quay of the Raid Victims stands as a place of memory and warning, reminding visitors of the importance of remembering the past.",
+        "didYouKnowTitle": "Did you know?",
+        "fact1": "The memorial was erected in 1971.",
+        "fact2": "During the raid, the Danube was frozen, and the ice was cut at the execution site.",
+        "fact3": "This is one of the most important memorial sites in Serbia dedicated to civilian victims of WWII.",
+        "locationLabel": "Where:",
+        "locationValue": "Quay of the Raid Victims, Novi Sad",
+        "quote": "Pause for a moment — the history of this city lives on today."
+    },
+    "PorodicaPage": {
+        "title": "“THE FAMILY” MONUMENT – A SYMBOL OF TOGETHERNESS",
+        "storyTitle": "Story of the place",
+        "storyText1": "The “Family” monument is located in Dunavski Park and represents one of the warmest and most approachable public artworks in Novi Sad.",
+        "storyText2": "Created by sculptor Jovan Soldatović, the sculpture depicts a family in a calm, everyday moment of closeness. Unlike grand historical monuments, it celebrates simplicity, human connection, and life.",
+        "storyText3": "The stylized figures without individual details make this monument a universal symbol of family as a core social value.",
+        "storyText4": "Today, it is a favorite place for rest, meetings, and quiet reflection in the park’s natural setting.",
+        "didYouKnowTitle": "Did you know?",
+        "fact1": "The author is the same sculptor who created the Quay of the Raid Victims memorial.",
+        "fact2": "Dunavski Park is one of the oldest parks in Novi Sad.",
+        "fact3": "The sculpture is intentionally placed in greenery, without a pedestal, to be “among the people.”",
+        "locationLabel": "Where:",
+        "locationValue": "Dunavski Park, Novi Sad",
+        "quote": "The greatest values are found in everyday moments."
+    },
+    "Footer": {
+        "rights": "All rights reserved."
+    },
+    "HomePage": {
+        "title": "Guardians of Novi Sad History",
+        "subtitle": "Discover the stories behind the monuments that adorn our city.",
+        "explore": "Explore Monuments",
+        "monumentsTitle": "Famous Monuments",
+        "items": {
+            "zmaj": {
+                "title": "Jovan Jovanović Zmaj",
+                "desc": "Monument to one of the most significant Serbian poets and doctors.",
+                "btn": "Read More"
+            },
+            "miletic": {
+                "title": "Svetozar Miletić",
+                "desc": "Monument to the leader of the Serbian national movement in Vojvodina.",
+                "btn": "Read More"
+            }
+        }
+    }
+}

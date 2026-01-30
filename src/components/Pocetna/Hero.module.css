@@ -1,0 +1,354 @@
+/* Hero Styles */
+
+.hero {
+    position: relative;
+    height: 100vh;
+    min-height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.heroBg {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+}
+
+.videoContainer {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+}
+
+.heroVideo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    will-change: transform;
+}
+
+.videoOverlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg,
+            rgba(10, 22, 40, 0.4) 0%,
+            rgba(10, 22, 40, 0.6) 50%,
+            rgba(10, 22, 40, 0.85) 100%);
+}
+
+.videoGrain {
+    position: absolute;
+    inset: 0;
+    opacity: 0.03;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+    pointer-events: none;
+}
+
+.heroContent {
+    position: relative;
+    z-index: 10;
+    text-align: center;
+    padding: var(--space-xl);
+    max-width: 1000px;
+}
+
+.heroMeta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--space-md);
+    margin-bottom: var(--space-xl);
+}
+
+.heroLocation,
+.heroYear {
+    font-family: var(--font-sans);
+    font-size: 0.6875rem;
+    font-weight: 500;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.heroDivider {
+    width: 40px;
+    height: 1px;
+    background: var(--accent-400);
+}
+
+.heroTitle {
+    font-family: var(--font-serif);
+    font-size: clamp(3.5rem, 10vw, 8rem);
+    font-weight: 400;
+    line-height: 0.95;
+    margin-bottom: var(--space-xl);
+    perspective: 1000px;
+}
+
+.titleLine {
+    display: block;
+    color: var(--neutral-100);
+}
+
+.titleAccent {
+    font-style: italic;
+    color: var(--accent-400);
+    font-weight: 500;
+}
+
+.heroSubtitle {
+    font-family: var(--font-sans);
+    font-size: clamp(0.875rem, 1.5vw, 1.125rem);
+    font-weight: 300;
+    letter-spacing: 0.1em;
+    color: rgba(255, 255, 255, 0.7);
+    max-width: 500px;
+    margin: 0 auto var(--space-2xl);
+    line-height: 1.8;
+}
+
+.heroCta {
+    display: flex;
+    justify-content: center;
+}
+
+.ctaButton {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-md);
+    padding: var(--space-md) var(--space-xl);
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: var(--neutral-100);
+    text-decoration: none;
+    font-family: var(--font-sans);
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    transition: all 0.4s var(--ease-out-expo);
+    position: relative;
+    overflow: hidden;
+}
+
+.ctaButton::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: var(--accent-400);
+    transform: translateX(-100%);
+    transition: transform 0.4s var(--ease-out-expo);
+    z-index: -1;
+}
+
+.ctaButton:hover {
+    border-color: var(--accent-400);
+    color: var(--primary-900);
+}
+
+.ctaButton:hover::before {
+    transform: translateX(0);
+}
+
+.ctaIcon {
+    width: 16px;
+    height: 16px;
+    transition: transform 0.3s var(--ease-out-expo);
+}
+
+.ctaButton:hover .ctaIcon {
+    transform: rotate(45deg);
+}
+
+.scrollIndicator {
+    position: absolute;
+    bottom: var(--space-2xl);
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--space-sm);
+}
+
+.scrollLine {
+    width: 1px;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.2);
+    position: relative;
+    overflow: hidden;
+}
+
+.scrollDot {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 5px;
+    height: 5px;
+    background: var(--accent-400);
+    border-radius: 50%;
+    transform: translateX(-50%);
+}
+
+.scrollText {
+    font-family: var(--font-sans);
+    font-size: 0.625rem;
+    font-weight: 500;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.heroDecorations {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    z-index: 5;
+}
+
+.decoCircle {
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    width: 300px;
+    height: 300px;
+    border: 1px solid rgba(201, 162, 39, 0.1);
+    border-radius: 50%;
+    animation: rotate 30s linear infinite;
+}
+
+.decoLine {
+    position: absolute;
+    bottom: 30%;
+    left: 5%;
+    width: 100px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.1);
+    transform: rotate(-45deg);
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media (max-width: 992px) {
+    .decoCircle {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        min-height: 700px;
+    }
+
+    .heroTitle {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .heroContent {
+        padding: var(--space-md);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-height: 80vh;
+        /* Ensure content is centered vertically */
+    }
+
+    .heroMeta {
+        flex-direction: row;
+        /* Keep row but wrap if needed */
+        flex-wrap: wrap;
+        gap: var(--space-sm);
+        margin-bottom: var(--space-lg);
+        opacity: 0.8;
+    }
+
+    .heroLocation,
+    .heroYear {
+        font-size: 0.625rem;
+    }
+
+    .heroDivider {
+        width: 20px;
+        opacity: 0.6;
+    }
+
+    .heroTitle {
+        font-size: 3rem;
+        /* Larger and impactful */
+        line-height: 0.9;
+        margin-bottom: var(--space-lg);
+    }
+
+    .titleLine {
+        display: inline-block;
+        /* Allow wrapping naturally */
+    }
+
+    .heroSubtitle {
+        font-size: 0.9375rem;
+        line-height: 1.6;
+        margin-bottom: var(--space-xl);
+        padding: 0 var(--space-sm);
+    }
+
+    .ctaButton {
+        width: 100%;
+        justify-content: center;
+        background: rgba(255, 255, 255, 0.05);
+        /* Subtle background for contrast */
+        backdrop-filter: blur(5px);
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    .hero *,
+    .hero *::before,
+    .hero *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+
+    .decoCircle {
+        animation: none;
+    }
+
+    .scrollDot {
+        animation: none;
+    }
+}
+
+/* High contrast mode */
+@media (prefers-contrast: high) {
+    .videoOverlay {
+        background: rgba(0, 0, 0, 0.8);
+    }
+}
+
+@media print {
+
+    .scrollIndicator,
+    .heroDecorations {
+        display: none !important;
+    }
+
+    .hero {
+        height: auto;
+        min-height: auto;
+        padding: var(--space-xl);
+    }
+}

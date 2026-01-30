@@ -1,0 +1,152 @@
+{
+  "Navbar": {
+    "title": "Spomenici",
+    "home": "Početna",
+    "monuments": "Spomenici",
+    "contact": "Kontakt"
+  },
+  "Hero": {
+    "location": "NOVI SAD, SRBIJA",
+    "est": "EST. 2026",
+    "titleMain": "Spomenici",
+    "titleAccent": "Novog Sada",
+    "subtitle": "Očuvanje istorije i kulture kroz monumentalno nasleđe našeg grada",
+    "explore": "Istraži",
+    "scroll": "Skroluj"
+  },
+  "Monuments": {
+    "label": "NAŠA BAŠTINA",
+    "titleMain": "ZNAMENITE",
+    "titleAccent": "LIČNOSTI",
+    "subtitle": "Otkrijte priče ljudi koji su oblikovali istoriju,\nkulturu i duh Novog Sada kroz vekove.",
+    "explore": "ISTRAŽI",
+    "items": {
+      "miletic": {
+        "category": "Političar",
+        "desc": "Istaknuti srpski političar, novinar i borac za prava Srba u Austro-Ugarskoj, čiji spomenik dominira Trgom slobode."
+      },
+      "zmaj": {
+        "category": "Pesnik",
+        "desc": "Jedan od najvećih srpskih pesnika, lekar i veliki dobrotvor, poznat po svojim ljubavnim i rodoljubivim pesmama."
+      },
+      "kej": {
+        "category": "Memorijal",
+        "name": "Kej žrtava racije",
+        "desc": "Jedno od najsnažnijih memorijalnih mesta u Novom Sadu, posvećeno nevinim žrtvama Novosadske racije."
+      },
+      "porodica": {
+        "category": "Memorijal",
+        "name": "Spomenik Porodica",
+        "desc": "Simbol zajedništva i ljubavi, spomenik posvećen stradalima u raciji, ali i univerzalnim vrednostima porodice."
+      },
+      "trandafil": {
+        "category": "Dobrotvorka",
+        "desc": "Velika dobrotvorka koja je ostavila ogromno bogatstvo za školovanje dece i pomoć siromašnima."
+      },
+      "tomic": {
+        "category": "Političar",
+        "desc": "Političar, novinar i književnik, jedna od ključnih ličnosti u prisajedinjenju Vojvodine Srbiji."
+      }
+    }
+  },
+  "Quote": {
+    "text": "Spomenici su knjige iz kamena, iz kojih učimo o našoj prošlosti i određujemo našu budućnost.",
+    "author": "Narodna mudrost"
+  },
+  "MileticPage": {
+    "title": "SPOMENIK SVETOZARU MILETIĆU – SIMBOL GRAĐANSKOG NOVOG SADA",
+    "storyTitle": "Priča mesta",
+    "storyText1": "Spomenik Svetozaru Miletiću dominira Trgom slobode i predstavlja jedan od najprepoznatljivijih simbola Novog Sada, smešten u samom srcu grada.",
+    "storyText2": "Svetozar Miletić bio je istaknuti srpski političar, advokat i gradonačelnik Novog Sada u 19. veku, poznat po borbi za prava Srba u Austrougarskoj i za razvoj građanskog društva.",
+    "storyText3": "Monumentalnu konjičku skulpturu izradio je Ivan Meštrović. Figura Miletića na uzdignutom konju simbolizuje snagu, dostojanstvo i odlučnost, dok položaj na centralnom trgu naglašava njegov značaj za identitet grada.",
+    "storyText4": "Danas, ovaj spomenik je i mesto okupljanja, susreta i prepoznatljiva tačka urbanog života Novog Sada.",
+    "didYouKnowTitle": "Da li ste znali?",
+    "fact1": "Autor spomenika je jedan od najznačajnijih vajara 20. veka – Ivan Meštrović.",
+    "fact2": "Spomenik je postavljen 1939. godine.",
+    "fact3": "Trg slobode je istorijsko središte političkog i društvenog života grada.",
+    "locationLabel": "Gde ste:",
+    "locationValue": "Trg slobode, Novi Sad",
+    "quote": "Grad se prepoznaje po ljudima koji su ga oblikovali."
+  },
+  "ZmajPage": {
+    "title": "SPOMENIK JOVANU JOVANOVIĆU ZMAJU – PESNIK GRADA",
+    "storyTitle": "Priča mesta",
+    "storyText1": "Spomenik Jovanu Jovanoviću Zmaju posvećen je jednom od najvoljenijih srpskih pesnika, čije su reči obeležile detinjstvo i kulturu mnogih generacija.",
+    "storyText2": "Zmaj je bio lekar, književnik i pesnik, poznat po stihovima punim topline, humora i humanosti. Njegovo stvaralaštvo i danas zauzima posebno mesto u srpskoj književnosti.",
+    "storyText3": "Skulptura ga prikazuje u mirnom, zamišljenom stavu, naglašavajući njegovu bliskost sa običnim ljudima i svakodnevnim životom.",
+    "storyText4": "Danas, ovaj spomenik podseća na važnost reči, kulture i umetnosti u identitetu Novog Sada.",
+    "didYouKnowTitle": "Da li ste znali?",
+    "fact1": "Jovan Jovanović Zmaj bio je i lekar po profesiji.",
+    "fact2": "Njegove pesme su među najčitanijim delima srpske dečje književnosti.",
+    "fact3": "U Novom Sadu se nalazi i Zmajeva ulica, nazvana u njegovu čast.",
+    "locationLabel": "Gde ste:",
+    "locationValue": "Centar Novog Sad",
+    "quote": "Reči imaju moć da traju duže od vremena."
+  },
+  "TomicPage": {
+    "title": "SPOMENIK JAŠI TOMIĆU – GLAS GRAĐANSKE BORBE",
+    "storyTitle": "Priča mesta",
+    "storyText1": "Spomenik Jaši Tomiću posvećen je jednom od najznačajnijih političkih i javnih delatnika srpske istorije s kraja 19. i početka 20. veka.",
+    "storyText2": "Jaša Tomić bio je političar, novinar i borac za prava Srba u Vojvodini, čije su ideje snažno uticale na društveni i politički život svog vremena.",
+    "storyText3": "Skulptura ga prikazuje dostojanstveno i odlučno, simbolizujući snagu javne reči i političkog angažmana.",
+    "storyText4": "Danas, spomenik stoji kao podsetnik na značaj građanske odgovornosti i aktivnog učešća u društvu.",
+    "didYouKnowTitle": "Da li ste znali?",
+    "fact1": "Jaša Tomić bio je dugogodišnji urednik i javni govornik.",
+    "fact2": "Njegovo delovanje vezano je za političku istoriju Vojvodine.",
+    "fact3": "Spomenik podseća na važnost slobode mišljenja i javne debate.",
+    "locationLabel": "Gde ste:",
+    "locationValue": "Novi Sad",
+    "quote": "Grad napreduje kada njegovi građani imaju glas."
+  },
+  "KejPage": {
+    "title": "KEJ ŽRTAVA RACIJE – TIHO MESTO SEĆANJA",
+    "storyTitle": "Priča mesta",
+    "storyText1": "Kеј žrtava racije jedno je od najsnažnijih memorijalnih mesta u Novom Sadu, smešteno uz obalu Dunava, gde se istorija grada susreće sa tišinom sećanja.",
+    "storyText2": "U januaru 1942. godine, tokom Drugog svetskog rata, na ovom mestu je izvršena Novosadska racija, tokom koje su mađarske okupacione snage ubile i u Dunav bacile više od 1.300 civila, uglavnom Srba, Jevreja i Roma.",
+    "storyText3": "Centralni deo memorijala čini skulptura „Porodica“, rad vajara Jovana Soldatovića. Njene figure nisu individualizovane — one predstavljaju sve nevine žrtve, dok bronzani otisci stopala duž keja simbolizuju njihov poslednji put ka reci.",
+    "storyText4": "Danas, Kеј žrtava racije stoji kao mesto sećanja i opomene, podsećajući da se istorija ne sme zaboraviti.",
+    "didYouKnowTitle": "Da li ste znali?",
+    "fact1": "Memorijal je postavljen 1971. godine.",
+    "fact2": "Dunav je tokom racije bio zaleđen, a led je sečen na mestu egzekucija.",
+    "fact3": "Ovo je jedno od najvažnijih memorijalnih mesta u Srbiji posvećenih civilnim žrtvama Drugog svetskog rata.",
+    "locationLabel": "Gde ste:",
+    "locationValue": "Kej žrtava racije, Novi Sad",
+    "quote": "Zastanite na trenutak — istorija ovog grada živi i danas."
+  },
+  "PorodicaPage": {
+    "title": "SPOMENIK „PORODICA“ – SIMBOL ZAJEDNIŠTVA",
+    "storyTitle": "Priča mesta",
+    "storyText1": "Spomenik „Porodica“ nalazi se u Dunavskom parku i predstavlja jedno od najtoplijih i najpristupačnijih umetničkih dela u javnom prostoru Novog Sada.",
+    "storyText2": "Skulpturu je izradio vajar Jovan Soldatović, a ona prikazuje porodicu u mirnom, svakodnevnom trenutku bliskosti. Za razliku od monumentalnih istorijskih spomenika, ovo delo slavi jednostavnost, ljudsku povezanost i život.",
+    "storyText3": "Stilizovane figure bez naglašene individualnosti čine ovaj spomenik univerzalnim simbolom porodice kao osnovne društvene vrednosti.",
+    "storyText4": "Danas je ovo omiljeno mesto odmora, susreta i tišine u prirodnom ambijentu parka.",
+    "didYouKnowTitle": "Da li ste znali?",
+    "fact1": "Autor je isti vajar koji je radio memorijal na Keju žrtava racije.",
+    "fact2": "Dunavski park je jedan od najstarijih parkova u Novom Sadu.",
+    "fact3": "Skulptura je namerno postavljena u zelenilo, bez postamenta, kako bi bila „među ljudima“.",
+    "locationLabel": "Gde ste:",
+    "locationValue": "Dunavski park, Novi Sad",
+    "quote": "U svakodnevnim trenucima kriju se najveće vrednosti."
+  },
+  "Footer": {
+    "rights": "Sva prava zadržana."
+  },
+  "HomePage": {
+    "title": "Čuvari istorije Novog Sada",
+    "subtitle": "Otkrijte priče iza spomenika koji krase naš grad.",
+    "explore": "Istraži spomenike",
+    "monumentsTitle": "Znameniti Spomenici",
+    "items": {
+      "zmaj": {
+        "title": "Jovan Jovanović Zmaj",
+        "desc": "Spomenik jednom od najznačajnijih srpskih pesnika i lekara.",
+        "btn": "Pročitaj više"
+      },
+      "miletic": {
+        "title": "Svetozar Miletić",
+        "desc": "Spomenik vođi srpskog narodnog pokreta u Vojvodini.",
+        "btn": "Pročitaj više"
+      }
+    }
+  }
+}

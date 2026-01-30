@@ -1,0 +1,185 @@
+/* QUOTE SECTION - BRUTALIST DESIGN */
+
+.quoteSection {
+    position: relative;
+    padding: clamp(80px, 12vw, 160px) clamp(20px, 5vw, 40px);
+    background: #0A0E15;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    isolation: isolate;
+}
+
+/* Background Pattern */
+.bgPattern {
+    position: absolute;
+    inset: 0;
+    opacity: 0.05;
+    background-image:
+        linear-gradient(rgba(201, 169, 97, 0.5) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(201, 169, 97, 0.5) 1px, transparent 1px);
+    background-size: 60px 60px;
+    z-index: 1;
+}
+
+.bgOverlay {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at center, transparent 0%, #0A0E15 80%);
+    z-index: 2;
+}
+
+/* Quote Container */
+.quoteWrapper {
+    position: relative;
+    max-width: 1200px;
+    width: 100%;
+    z-index: 10;
+    padding: clamp(40px, 8vw, 80px);
+    border: 1px solid rgba(201, 169, 97, 0.2);
+    background: rgba(10, 14, 21, 0.8);
+    backdrop-filter: blur(10px);
+}
+
+/* Decorative Frame Corners */
+.frameCorner {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border: 4px solid #C9A961;
+    transition: all 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.quoteWrapper:hover .frameCorner {
+    width: 50px;
+    height: 50px;
+}
+
+.cornerTL {
+    top: -2px;
+    left: -2px;
+    border-right: none;
+    border-bottom: none;
+}
+
+.cornerTR {
+    top: -2px;
+    right: -2px;
+    border-left: none;
+    border-bottom: none;
+}
+
+.cornerBR {
+    bottom: -2px;
+    right: -2px;
+    border-left: none;
+    border-top: none;
+}
+
+.cornerBL {
+    bottom: -2px;
+    left: -2px;
+    border-right: none;
+    border-top: none;
+}
+
+/* Large Quote Icon */
+.quoteIcon {
+    position: absolute;
+    top: -40px;
+    left: 60px;
+    width: 80px;
+    height: 80px;
+    background: #0A0E15;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #C9A961;
+    font-size: 4rem;
+    font-family: var(--font-serif);
+    border: 1px solid rgba(201, 169, 97, 0.3);
+}
+
+/* Typography */
+.quoteText {
+    font-family: var(--font-serif);
+    font-size: clamp(1.75rem, 3.5vw, 3rem);
+    font-weight: 300;
+    color: #FFFFFF;
+    line-height: 1.4;
+    text-align: center;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.quoteLine {
+    display: inline-block;
+    position: relative;
+    z-index: 5;
+}
+
+.quoteAuthor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.authorLine {
+    width: 60px;
+    height: 2px;
+    background: #C9A961;
+}
+
+.authorName {
+    font-family: var(--font-sans);
+    font-size: clamp(0.875rem, 1.5vw, 1rem);
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #C9A961;
+}
+
+/* Decorative Elements */
+.decoLines {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    gap: 4px;
+}
+
+.decoLines span {
+    width: 2px;
+    height: 20px;
+    background: rgba(201, 169, 97, 0.3);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .quoteWrapper {
+        padding: 40px 20px;
+    }
+
+    .quoteIcon {
+        top: -30px;
+        left: 20px;
+        width: 60px;
+        height: 60px;
+        font-size: 3rem;
+    }
+
+    .frameCorner {
+        width: 20px;
+        height: 20px;
+        border-width: 3px;
+    }
+
+    .authorName {
+        width: 80%;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+}
