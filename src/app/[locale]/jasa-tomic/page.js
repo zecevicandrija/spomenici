@@ -17,7 +17,6 @@ export default function TomicPage() {
 
     useEffect(() => {
         const ctx = gsap.context(() => {
-            // Hero Title Reveal
             gsap.fromTo(
                 '.heroTitle span',
                 { y: 100, opacity: 0 },
@@ -31,7 +30,6 @@ export default function TomicPage() {
                 }
             );
 
-            // Image Frame Animation
             gsap.fromTo(
                 '.frameCorner',
                 { scale: 0 },
@@ -44,7 +42,6 @@ export default function TomicPage() {
                 }
             );
 
-            // Content Fade In
             gsap.fromTo(
                 '.fadeContent',
                 { y: 30, opacity: 0 },
@@ -58,7 +55,6 @@ export default function TomicPage() {
                 }
             );
 
-            // Facts Cards Stagger
             gsap.fromTo(
                 '.factCard',
                 { y: 50, opacity: 0 },
@@ -85,7 +81,6 @@ export default function TomicPage() {
             <Navbar />
 
             <section className={styles.heroSection}>
-                {/* Text Content */}
                 <div className={styles.heroContent}>
                     <h1 className={`${styles.heroTitle} heroTitle`}>
                         <span className={styles.titleLine}>{t('title').split('–')[0]}</span>
@@ -103,7 +98,6 @@ export default function TomicPage() {
                     </div>
                 </div>
 
-                {/* Image Section */}
                 <div className={styles.heroImageWrapper}>
                     <div className={styles.imageFrame}>
                         <div className={`${styles.frameCorner} ${styles.cornerTL} frameCorner`}></div>
@@ -125,7 +119,6 @@ export default function TomicPage() {
                 </div>
             </section>
 
-            {/* Did You Know Section */}
             <section className={`${styles.factsSection} factsSection`}>
                 <div className={styles.factsContainer}>
                     <div className={`${styles.factCard} factCard`}>
@@ -143,7 +136,6 @@ export default function TomicPage() {
                 </div>
             </section>
 
-            {/* Bottom Quote & Location */}
             <section className={styles.quoteFooter}>
                 <blockquote className={styles.quoteText}>
                     "{t('quote')}"

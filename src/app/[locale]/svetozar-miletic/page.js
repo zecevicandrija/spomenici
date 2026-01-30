@@ -90,7 +90,7 @@ export default function MileticPage() {
                     <h1 className={`${styles.heroTitle} heroTitle`}>
                         <span className={styles.titleLine}>{t('title').split('–')[0]}</span>
                         <span className={`${styles.titleLine} ${styles.titleAccent}`}>
-                            {t('title').split('–')[1] || "SIMBOL NOVOG SADA"}
+                            {t('title').split('–')[1] || "NOVI SAD"}
                         </span>
                     </h1>
 
@@ -133,7 +133,7 @@ export default function MileticPage() {
                         <p className={styles.factText}>{t('fact1')}</p>
                     </div>
                     <div className={`${styles.factCard} factCard`}>
-                        <h3 className={styles.factTitle}>1939</h3>
+                        <h3 className={styles.factTitle}>1826—1901</h3>
                         <p className={styles.factText}>{t('fact2')}</p>
                     </div>
                     <div className={`${styles.factCard} factCard`}>
