@@ -42,7 +42,7 @@ export default function Footer() {
                     <div className={`${styles.footerBrand} footerReveal`}>
                         <Link href="/" className={styles.footerLogo}>
                             <img
-                                src="/assets/logocentra.jpeg"
+                                src="/Assets/logocentra.jpeg"
                                 alt="Omladinski Centar Srbije"
                                 className={styles.footerLogoImage}
                             />
