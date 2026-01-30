@@ -47,6 +47,13 @@ export default function Footer() {
                                 className={styles.footerLogoImage}
                             />
                         </Link>
+                        <Link href="/" className={styles.footerLogo}>
+                            <img
+                                src="/Assets/logo2.jpeg"
+                                alt="Logo 2"
+                                className={styles.footerLogoImageSecond}
+                            />
+                        </Link>
                         <p className={styles.footerTagline}>
                             Čuvamo istoriju za buduće generacije
                         </p>
