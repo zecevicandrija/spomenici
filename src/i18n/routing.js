@@ -11,6 +11,10 @@ export const routing = defineRouting({
     // Hide default locale prefix (sr)
     localePrefix: 'as-needed',
 
+    // Disable automatic locale detection based on browser language
+    // This prevents redirect to /en for users with English browser
+    localeDetection: false,
+
     pathnames: {
         '/': '/',
         '/svetozar-miletic': {
